@@ -14,9 +14,19 @@ public class Person {
         return p;
     }
 
+
     private void setGender(String m) {
+        System.out.println(m);
     }
 
     private void setTitle(String mr) {
+        System.out.println(mr);
+    }
+
+    public static void main(String[] args) {
+        Person.create("male");
+
     }
 }
+
+
