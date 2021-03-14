@@ -4,6 +4,7 @@ public class Person {
     public static Person create(String gender){
         Person p = new Person();
         if ("male".equals(gender)){
+            System.out.println(p);
             p.setTitle("Mr");
             p.setGender("M");
 ;       }
